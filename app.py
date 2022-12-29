@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
         
-        return f"Instance ID: {instance_id}"
+        return f"Instance ID: {instance_id} hello world"
         
         
 
